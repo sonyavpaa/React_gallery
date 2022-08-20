@@ -1,5 +1,7 @@
 # Image Gallery using React and Cloudinary
 
+NOT READY!
+
 Image gallery app that fetches images from Cloudinary Media Library
 
 # 1.
