@@ -1,6 +1,6 @@
-import "./App.css";
+import "./css/App.css";
 import React from "react";
-import Gallery from "./Gallery";
+import Gallery from "./components/Gallery";
 
 import { cldArr } from "./images";
 

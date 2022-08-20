@@ -1,0 +1,38 @@
+.activeImg {
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 255, 0.549);
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: scroll;
+}
+
+.nonActiveImg {
+  display: none;
+  position: absolute;
+}
+
+.singleImgWrapper {
+  margin-top: -5em;
+  height: 100%;
+  width: 60vw;
+  object-fit: cover;
+}
+
+.singleImgWrapper > p {
+  font-family: var(--ff__bread01);
+}
+
+.singleImgWrapper img {
+  width: auto;
+}
+
+.singleImgTextWrapper {
+  text-align: center;
+  background-color: white;
+  height: 50em;
+  margin-top: -0.5em;
+}
