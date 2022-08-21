@@ -1,0 +1,14 @@
+.cvContainer {
+  margin-top: 3em;
+  font-family: serif;
+}
+
+.cvLink {
+  color: rgb(173, 136, 178);
+  text-decoration: underline;
+}
+
+.arrowBack {
+  font-size: 3em;
+  color: rgb(226, 184, 232);
+}

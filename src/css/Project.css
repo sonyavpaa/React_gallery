@@ -1,0 +1,35 @@
+.videoContainer {
+  display: flex;
+}
+
+.videoContainer p {
+  margin-left: 0.5em;
+}
+
+.videoBrowser {
+  height: 60vh;
+}
+
+.videoMobile {
+  width: 60vw;
+}
+
+.projecth1Browser {
+  margin-top: 0.2em;
+}
+
+.projecth1Mobile {
+  font-size: 3em;
+}
+
+.projectPContainerBrowser {
+  margin-top: 2em;
+}
+
+.projectPContainerMobile {
+  margin-top: 1em;
+}
+
+.projectLink {
+  text-decoration: underline;
+}

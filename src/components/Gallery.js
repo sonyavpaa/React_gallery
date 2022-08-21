@@ -15,40 +15,33 @@ const Gallery = (props) => {
 
   // closes the view of a single image that is active
   const viewClickHandler = (e) => {
-    // console.log(e.currentTarget.className);
     e.currentTarget.className = "nonActiveImg";
   };
 
   return (
-    <div className="frameContainer body">
-      <div className="leftContainer">
-        <div className="h1Container">
-          <h1>SONJA VAINIONPÄÄ</h1>
-        </div>
-        <div className="info">
-          <p>sonja.vpaa@gmail.com</p>
-        </div>
-      </div>
-      <div className="rightContainer">
-        <div className="image-grid galleryContainer">
-          {list.map((item, index) => {
-            return (
-              <React.Fragment key={index}>
-                <div onClick={(e) => listClickHandler(e)}>
-                  <AdvancedImage key={item.img.publicID} cldImg={item.img} />
-                </div>
+    <div className="image-grid galleryContainer">
+      {list.map((item, index) => {
+        return (
+          <React.Fragment key={index}>
+            <div
+              onClick={(e) => listClickHandler(e)}
+              style={{ maxWidth: "70vw" }}
+            >
+              <AdvancedImage
+                key={item?.img[0].publicID}
+                cldImg={item?.img[0]}
+              />
+            </div>
 
-                <SingleImg
-                  active="nonActiveImg"
-                  onClick={(e) => viewClickHandler(e)}
-                  img={item.img}
-                  desc={item.desc}
-                />
-              </React.Fragment>
-            );
-          })}
-        </div>
-      </div>
+            <SingleImg
+              active="nonActiveImg"
+              onClick={(e) => viewClickHandler(e)}
+              imgs={item.img}
+              desc={item.desc}
+            />
+          </React.Fragment>
+        );
+      })}
     </div>
   );
 };

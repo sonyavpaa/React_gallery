@@ -5,9 +5,7 @@
   background-color: rgba(0, 255, 255, 0.549);
   position: fixed;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  overflow: scroll;
+  flex-direction: column;
 }
 
 .nonActiveImg {
@@ -15,24 +13,65 @@
   position: absolute;
 }
 
-.singleImgWrapper {
-  margin-top: -5em;
-  height: 100%;
-  width: 60vw;
-  object-fit: cover;
+.imagesWrapper {
+  width: 100%;
+  height: 100em;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  margin-bottom: -3em;
 }
 
-.singleImgWrapper > p {
+.imagesWrapper > p {
   font-family: var(--ff__bread01);
 }
 
+.singleImgWrapper {
+  height: fit-content;
+  width: 60vw;
+}
+
 .singleImgWrapper img {
-  width: auto;
+  max-height: 80vh;
+  width: 60vw;
+  object-fit: contain;
 }
 
 .singleImgTextWrapper {
   text-align: center;
   background-color: white;
   height: 50em;
+  width: 60vw;
+}
+
+.singleImgTextWrapper p {
+  margin-top: 0.5em;
+}
+
+.singleImgWrapperMobile {
+  margin-top: 20vh;
+  text-align: center;
+  height: auto;
+  width: 100vw;
+  overflow-wrap: break-word;
+}
+
+.singleImgTextWrapperMobile {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.802);
+  padding-bottom: 5em;
+  font-size: small;
   margin-top: -0.5em;
+}
+
+.singleImgTextWrapperMobile > h1 {
+  width: 70vw;
+  font-size: 4em;
+  word-break: keep-all;
+}
+
+.singleImgTextWrapperMobile > p {
+  width: 70vw;
+  word-break: keep-all;
+  padding-top: 1em;
 }
