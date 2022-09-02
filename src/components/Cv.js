@@ -20,7 +20,7 @@ const Cv = () => {
       <p> EDUCATION</p>
       <ul>
         <p>
-          <a className="cvLink" href="https://sonyaweb.herokuapp.com/">
+          <a className="cvLink2" href="https://sonyaweb.herokuapp.com/">
             BCH, Software Developer programme, 2022-
           </a>
         </p>
@@ -31,10 +31,10 @@ const Cv = () => {
       <p>ACTIVITIES</p>
       <ul>
         <p>
-          <Link className="cvLink" to="/curators">
-            The Unberable Lightness of Contemporary Art Curatorship, performance
-            created and performed /w Jonne Väisänen, Sen se recidency/
-            exhibition, Kajaani, 2022.
+          <Link className="cvLink1" to="/curators">
+            The Unbearable Lightness of Contemporary Art Curatorship,
+            performance created and performed /w Jonne Väisänen, Sen se
+            recidency/ exhibition, Kajaani, 2022.
           </Link>
         </p>
         <p>
@@ -42,16 +42,13 @@ const Cv = () => {
           2018-2019.
         </p>
         <p>
-          <a
-            className="cvLink"
-            href="https://olohuone.org/portfolio/sonja-vainionpaa-turun-pa-piiri"
-          >
+          <Link className="cvLink1" to="/turunpa">
             Turun PA-piiri performance, Olohuone 306,4 km2 festival, 2017.{" "}
-          </a>
+          </Link>
         </p>
         <p>
           <a
-            className="cvLink"
+            className="cvLink2"
             href="http://metsanpeitossapyha.blogspot.com/2017/07/pyhiinvaellus-kuusiston-kappelinmaella.html"
           >
             Paneelikeskustelu Pyhästä, producer/ conversation leader, 2017.
@@ -59,14 +56,13 @@ const Cv = () => {
         </p>
         <p>GalleriaGalleria, pop up gallery producer, 2017. </p>
 
-        <p> Kammari, conversation event producer, 2017. </p>
+        <Link to="/kammari" className="cvLink1">
+          <p> Kammari, conversation event producer, 2017. </p>
+        </Link>
         <p>
-          <a
-            className="cvLink"
-            href="https://www.youtube.com/watch?v=BTg4zPxp1Hw"
-          >
+          <Link to="/suomikuvia" className="cvLink1">
             SUOMIKUVIA performance, H2Ö festival, 2016.
-          </a>{" "}
+          </Link>{" "}
         </p>
       </ul>
       <br></br>
@@ -74,7 +70,7 @@ const Cv = () => {
       <ul>
         <p>
           <a
-            className="cvLink"
+            className="cvLink2"
             href="https://www.turku.fi/uutinen/2017-10-12_suomalaisuuden-monet-kasvot-lokakuussa-hansakorttelissa"
           >
             Suomalaisuuden monet kasvot, Turun Hansakortteli, Turku, 2017.
@@ -85,10 +81,12 @@ const Cv = () => {
       <br></br>
       <p>GROUP EXHIBITONS</p>
       <ul>
-        <p>
-          Even Share, Contemporary Art Museum of Estonia (EKKM), Tallinn (EE),
-          2017.
-        </p>
+        <Link to="/eden" className="cvLink1">
+          <p>
+            Even Share, Contemporary Art Museum of Estonia (EKKM), Tallinn (EE),
+            2017.
+          </p>
+        </Link>
         <p>Contemporary Self Portraits, Köysiratagalleria, Turku, 2014. </p>{" "}
         <p>Hedonia, mielihyvän liha ja teoria, Kirjakahvila, Turku, 2013. </p>
         <p>

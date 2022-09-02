@@ -28,6 +28,46 @@ const App = () => {
               />
             }
           />
+          <Route
+            path="/turunpa"
+            element={
+              <Project
+                video={projectArr[1].video}
+                header={projectArr[1].header}
+                p={projectArr[1].p}
+              />
+            }
+          />
+          <Route
+            path="/suomikuvia"
+            element={
+              <Project
+                iframe={projectArr[2].iframe}
+                header={projectArr[2].header}
+                p={projectArr[2].p}
+              />
+            }
+          />
+          <Route
+            path="/kammari"
+            element={
+              <Project
+                img={projectArr[3].img}
+                header={projectArr[3].header}
+                p={projectArr[3].p}
+              />
+            }
+          />
+          <Route
+            path="/eden"
+            element={
+              <Project
+                img={projectArr[4].img}
+                header={projectArr[4].header}
+                p={projectArr[4].p}
+              />
+            }
+          />
         </Route>
       </Routes>
     </BrowserRouter>

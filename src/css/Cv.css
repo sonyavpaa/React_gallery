@@ -1,10 +1,16 @@
 .cvContainer {
   margin-top: 3em;
   font-family: serif;
+  width: 95%;
 }
 
-.cvLink {
+.cvLink1 {
   color: rgb(173, 136, 178);
+  text-decoration: underline;
+}
+
+.cvLink2 {
+  color: rgb(136, 167, 178);
   text-decoration: underline;
 }
 
