@@ -4,7 +4,7 @@ import React from "react";
 // Create a Cloudinary instance and set your cloud name.
 const cld = new Cloudinary({
   cloud: {
-    cloudName: "", //YOUR CLOUDNAME HERE
+    cloudName: "sonyaweb", //YOUR CLOUDNAME HERE
   },
 });
 
@@ -18,6 +18,8 @@ const img3 = cld.image("dx5vcb");
 const img4 = cld.image("t13osr");
 const img5 = cld.image("tbmvut");
 const img6 = cld.image("k2ba8c");
+const img7 = cld.image("dbrl2p");
+const img8 = cld.image("ffg0uo");
 
 // An array that will be rendered inside Project components
 export const projectArr = [
@@ -157,6 +159,19 @@ export const projectArr = [
 
 // An array that is rendered inside Gallery component
 export const cldArr = [
+  {
+    img: [img7, img8],
+    desc: (
+      <>
+        <h1>Jonne</h1>
+        <p>
+          my dear friend jonne rolling a cig inside art in kajaani in july.
+          after a while he fell asleep there and i wish this world could be as
+          peaceful and contented as he was in that soft√¬ moment.
+        </p>
+      </>
+    ),
+  },
   {
     img: [img6],
     desc: (
