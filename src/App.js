@@ -29,6 +29,16 @@ const App = () => {
             }
           />
           <Route
+            path="/fridaynightdinner"
+            element={
+              <Project
+                img={projectArr[5].img}
+                header={projectArr[5].header}
+                p={projectArr[5].p}
+              />
+            }
+          />
+          <Route
             path="/turunpa"
             element={
               <Project

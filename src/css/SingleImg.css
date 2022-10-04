@@ -1,9 +1,8 @@
 .activeImg {
   visibility: visible;
-  /* width: 100%; */
   height: 100%;
   background-color: rgba(0, 255, 255, 0.549);
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
 }
@@ -19,7 +18,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* align-items: center; */
   overflow-x: scroll;
   margin-bottom: -3em;
 }
@@ -56,6 +54,7 @@
   height: auto;
   width: 100vw;
   overflow-wrap: break-word;
+  height: 100%;
 }
 
 .singleImgTextWrapperMobile {

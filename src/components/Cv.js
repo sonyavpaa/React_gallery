@@ -19,63 +19,57 @@ const Cv = () => {
       <br></br>
       <p> EDUCATION</p>
       <ul>
-        <p>
-          <a className="cvLink2" href="https://sonyaweb.herokuapp.com/">
-            BCH, Software Developer programme, 2022-
-          </a>
-        </p>
+        <a className="cvLink2" href="https://sonyaweb.herokuapp.com/">
+          <p>BCH, Software Developer programme, 2022-</p>
+        </a>
+
         <p> TUAS Arts Academy, Fine Arts programme, 2011-2017. </p>
         <p>Institute of Voionmaa: Syllabus of Photography, 2008-2009. </p>
       </ul>
       <br></br>
       <p>ACTIVITIES</p>
       <ul>
-        <p>
-          <Link className="cvLink1" to="/curators">
+        <Link className="cvLink1" to="/curators">
+          <p>
             The Unbearable Lightness of Contemporary Art Curatorship,
             performance created and performed /w Jonne Väisänen, Sen se
             recidency/ exhibition, Kajaani, 2022.
-          </Link>
-        </p>
-        <p>
-          Events production, producer, Sir Toby’s Hostel, Prague (CZ),
-          2018-2019.
-        </p>
-        <p>
-          <Link className="cvLink1" to="/turunpa">
-            Turun PA-piiri performance, Olohuone 306,4 km2 festival, 2017.{" "}
-          </Link>
-        </p>
-        <p>
-          <a
-            className="cvLink2"
-            href="http://metsanpeitossapyha.blogspot.com/2017/07/pyhiinvaellus-kuusiston-kappelinmaella.html"
-          >
-            Paneelikeskustelu Pyhästä, producer/ conversation leader, 2017.
-          </a>
-        </p>
-        <p>GalleriaGalleria, pop up gallery producer, 2017. </p>
+          </p>
+        </Link>
 
+        <Link className="cvLink1" to="/fridaynightdinner">
+          <p>
+            Events production, producer, Sir Toby’s Hostel, Prague (CZ),
+            2018-2019.
+          </p>
+        </Link>
+        <Link className="cvLink1" to="/turunpa">
+          <p>Turun PA-piiri performance, Olohuone 306,4 km2 festival, 2017. </p>
+        </Link>
+        <a
+          className="cvLink2"
+          href="http://metsanpeitossapyha.blogspot.com/2017/07/pyhiinvaellus-kuusiston-kappelinmaella.html"
+        >
+          <p>Paneelikeskustelu Pyhästä, producer/ conversation leader, 2017.</p>
+        </a>
+        <p>GalleriaGalleria, pop up gallery producer, 2017. </p>
         <Link to="/kammari" className="cvLink1">
           <p> Kammari, conversation event producer, 2017. </p>
         </Link>
-        <p>
-          <Link to="/suomikuvia" className="cvLink1">
-            SUOMIKUVIA performance, H2Ö festival, 2016.
-          </Link>{" "}
-        </p>
+        <Link to="/suomikuvia" className="cvLink1">
+          <p>SUOMIKUVIA performance, H2Ö festival, 2016.</p>
+        </Link>
       </ul>
       <br></br>
       <p>SOLO EXHIBITIONS</p>
       <ul>
-        <p>
-          <a
-            className="cvLink2"
-            href="https://www.turku.fi/uutinen/2017-10-12_suomalaisuuden-monet-kasvot-lokakuussa-hansakorttelissa"
-          >
-            Suomalaisuuden monet kasvot, Turun Hansakortteli, Turku, 2017.
-          </a>{" "}
-        </p>
+        <a
+          className="cvLink2"
+          href="https://www.turku.fi/uutinen/2017-10-12_suomalaisuuden-monet-kasvot-lokakuussa-hansakorttelissa"
+        >
+          <p>Suomalaisuuden monet kasvot, Turun Hansakortteli, Turku, 2017.</p>
+        </a>
+
         <p>Vanhuus ei tule, Galleria Pinna, Savonlinna, 2011. </p>
       </ul>
       <br></br>

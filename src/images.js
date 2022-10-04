@@ -4,7 +4,7 @@ import React from "react";
 // Create a Cloudinary instance and set your cloud name.
 const cld = new Cloudinary({
   cloud: {
-    cloudName: "", //YOUR CLOUDNAME HERE
+    cloudName: "sonyaweb", //YOUR CLOUDNAME HERE
   },
 });
 
@@ -155,6 +155,36 @@ export const projectArr = [
       </React.Fragment>
     ),
   },
+  {
+    img: img5,
+    header: "Friday Night Dinner, Prague (CZ), 2018-2019",
+    p: (
+      <React.Fragment>
+        <p>
+          producing multiple social events for a popular and busy hostel in
+          Prague including e.g. art walks, mural painting, beer tasting and my
+          own personal creation, Friday Night Dinner.
+        </p>
+        <br></br>
+        <p>
+          physical presence and creating things in a group has played the main
+          role in my art practise ever since i realized how much of my own
+          understanding of myself is connected to the concept of work; to
+          something where i am involved in a group in where we do and create
+          things in a team.
+        </p>
+
+        <br></br>
+        <p>
+          with Friday Night Dinner my goal was to bring individuals around the
+          same table to create something collectively and enjoy the result
+          together. the experience of physical doing in a group and also sharing
+          the whole process with other members held the key value of the whole
+          project.
+        </p>
+      </React.Fragment>
+    ),
+  },
 ];
 
 // An array that is rendered inside Gallery component
@@ -167,7 +197,7 @@ export const cldArr = [
         <p>
           my dear friend jonne rolling a cig inside art in kajaani in july.
           after a while he fell asleep there and i wish this world could be as
-          peaceful and contented as he was in that soft√¬ moment.
+          peaceful and contented as he was in that soft moment.
         </p>
       </>
     ),

@@ -9,6 +9,10 @@
   text-decoration: underline;
 }
 
+.cvLink1:nth-of-type(even) {
+  color: rgb(216, 167, 198);
+}
+
 .cvLink2 {
   color: rgb(136, 167, 178);
   text-decoration: underline;
