@@ -4,7 +4,7 @@ import React from "react";
 // Create a Cloudinary instance and set your cloud name.
 const cld = new Cloudinary({
   cloud: {
-    cloudName: "sonyaweb", //YOUR CLOUDNAME HERE
+    cloudName: process.env.REACT_APP_CLOUDNAME, //YOUR CLOUDNAME HERE
   },
 });
 
